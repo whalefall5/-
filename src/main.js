@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+<<<<<<< HEAD
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import VueResource from 'vue-resource'
@@ -37,6 +38,10 @@ Vue.filter('sinppt',function(value){
   }
 })
 
+=======
+
+Vue.config.productionTip = false
+>>>>>>> 88e11add22a0a7ca5cd86d4a14f6381e13ba5b98
 
 new Vue({
   router,
